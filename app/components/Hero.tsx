@@ -26,17 +26,7 @@ export default function Hero() {
 
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4">
-              {catalog.brand.name.split(" & ").map((part, i) => (
-                <span key={i}>
-                  {i > 0 && (
-                    <>
-                      {" & "}
-                      <span className="text-yellow-400">{part}</span>
-                    </>
-                  )}
-                  {i === 0 && part}
-                </span>
-              ))}
+              Katering di Pekalongan & Katering Murah Pekalongan
             </h1>
 
             {/* Sub-headline */}
@@ -45,8 +35,9 @@ export default function Hero() {
             </p>
 
             <p className="text-green-200 text-base sm:text-lg mb-10 max-w-lg mx-auto lg:mx-0">
-              Kami hadir untuk memberikan layanan aqiqah terbaik, mulai dari pemilihan hewan di farm
-              hingga sajian kuliner lezat yang halal dan berkah.
+              {catalog.brand.name} menghadirkan layanan aqiqah terbaik di Pekalongan, mulai dari
+              pemilihan hewan di farm hingga sajian kuliner halal, lezat, dan berkah untuk keluarga
+              Anda.
             </p>
 
             {/* CTA Buttons */}
@@ -60,7 +51,7 @@ export default function Hero() {
                 <Phone className="w-5 h-5" />
                 {catalog.contact.ctaText}
               </a>
-            <a
+              <a
                 href="#pricing"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white/60 text-white hover:bg-white/10 font-semibold text-base px-8 py-4 rounded-full transition-all duration-200"
               >
@@ -78,7 +69,7 @@ export default function Hero() {
                   {/* Large Kambing Image */}
                   <img
                     src="/images/kambing.png"
-                    alt="Large Kambing"
+                    alt="Kambing sehat untuk layanan katering murah Pekalongan"
                     className="w-full h-full object-contain"
                   />
                 </div>

@@ -2,10 +2,29 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Saighon Catering & Farm — Aqiqah Murah Kualitas Wahh",
+  metadataBase: new URL("https://saighon-catering.daydev.studio"),
+  title: "Katering di Pekalongan | Katering Murah Pekalongan - Saighon Catering & Farm",
   description:
-    "Layanan Aqiqah Amanah Sesuai Syariah. Pilih kambing langsung dari farm, hewan sehat & terawat, harga terjangkau.",
-  keywords: ["aqiqah", "catering", "farm", "kambing", "syariah", "saighon"],
+    "Saighon Catering & Farm menyediakan katering di Pekalongan dan katering murah Pekalongan untuk aqiqah sesuai syariah. Pilih kambing sehat langsung dari farm kami.",
+  keywords: [
+    "katering di pekalongan",
+    "katering murah pekalongan",
+    "katering aqiqah pekalongan",
+    "aqiqah pekalongan",
+    "saighon catering",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://saighon-catering.daydev.studio",
+    siteName: "Saighon Catering & Farm",
+    title: "Katering di Pekalongan | Katering Murah Pekalongan - Saighon Catering & Farm",
+    description:
+      "Katering di Pekalongan dan katering murah Pekalongan untuk aqiqah sesuai syariah. Hewan sehat, farm sendiri, dan layanan amanah.",
+  },
 };
 
 export default function RootLayout({

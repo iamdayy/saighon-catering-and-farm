@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 import catalog from "../data/catalog.json";
 
 export default function Contact() {
@@ -15,6 +15,9 @@ export default function Contact() {
           <p className="text-green-200 text-lg max-w-xl mx-auto">
             {catalog.contact.description}
           </p>
+          {catalog.contact.location && (
+            <p className="text-green-300 text-sm mt-2">{catalog.contact.location}</p>
+          )}
         </div>
 
         {/* Contact Card */}

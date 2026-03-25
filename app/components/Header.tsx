@@ -38,7 +38,7 @@ export default function Header() {
               {/* Kambing/Domba Image */}
               <img
                 src="/images/logo.png"
-                alt="Logo"
+                alt="Logo Saighon Catering & Farm Pekalongan"
                 className="w-full h-full object-contain"
               />
             </div>

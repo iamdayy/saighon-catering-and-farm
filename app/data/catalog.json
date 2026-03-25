@@ -11,15 +11,30 @@
     }
   },
   "navigation": [
-    { "label": "Beranda", "href": "#hero" },
-    { "label": "Farm", "href": "#farm" },
-    { "label": "Paket Aqiqah", "href": "#pricing" },
-    { "label": "Paket Talam", "href": "#talam" },
-    { "label": "Kontak", "href": "#contact" }
+    {
+      "label": "Beranda",
+      "href": "#hero"
+    },
+    {
+      "label": "Farm",
+      "href": "#farm"
+    },
+    {
+      "label": "Paket Aqiqah",
+      "href": "#pricing"
+    },
+    {
+      "label": "Paket Talam",
+      "href": "#talam"
+    },
+    {
+      "label": "Kontak",
+      "href": "#contact"
+    }
   ],
   "farm": {
     "headline": "Pilih Kambing Langsung dari Kandang",
-    "description": "Kami menyediakan layanan farm terpadu untuk memastikan kualitas hewan aqiqah terbaik sesuai syariah.",
+    "description": "Kami menyediakan layanan farm terpadu untuk memastikan kualitas hewan aqiqah terbaik untuk katering di Pekalongan sesuai syariah.",
     "features": [
       {
         "id": 1,
@@ -44,8 +59,8 @@
     ]
   },
   "pricing": {
-    "headline": "Paket Aqiqah",
-    "description": "Pilih paket yang sesuai kebutuhan Anda. Tersedia dalam dua kategori nasi.",
+    "headline": "Paket Katering Aqiqah Murah Pekalongan",
+    "description": "Pilih paket yang sesuai kebutuhan Anda. Tersedia dalam dua kategori nasi untuk layanan katering murah Pekalongan.",
     "standardMenu": [
       "Rendang",
       "Telur Semur",
@@ -65,9 +80,18 @@
             "label": "Aqiqah Putri",
             "subtitle": "1 Kambing",
             "options": [
-              { "pax": 60, "price": "Hubungi Kami" },
-              { "pax": 80, "price": "Hubungi Kami" },
-              { "pax": 100, "price": "Hubungi Kami" }
+              {
+                "pax": 60,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 80,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 100,
+                "price": "Hubungi Kami"
+              }
             ]
           },
           {
@@ -75,9 +99,18 @@
             "label": "Aqiqah Putra",
             "subtitle": "2 Kambing",
             "options": [
-              { "pax": 100, "price": "Hubungi Kami" },
-              { "pax": 150, "price": "Hubungi Kami" },
-              { "pax": 200, "price": "Hubungi Kami" }
+              {
+                "pax": 100,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 150,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 200,
+                "price": "Hubungi Kami"
+              }
             ]
           }
         ]
@@ -91,9 +124,18 @@
             "label": "Aqiqah Putri",
             "subtitle": "1 Kambing",
             "options": [
-              { "pax": 60, "price": "Hubungi Kami" },
-              { "pax": 80, "price": "Hubungi Kami" },
-              { "pax": 100, "price": "Hubungi Kami" }
+              {
+                "pax": 60,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 80,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 100,
+                "price": "Hubungi Kami"
+              }
             ]
           },
           {
@@ -101,9 +143,18 @@
             "label": "Aqiqah Putra",
             "subtitle": "2 Kambing",
             "options": [
-              { "pax": 100, "price": "Hubungi Kami" },
-              { "pax": 150, "price": "Hubungi Kami" },
-              { "pax": 200, "price": "Hubungi Kami" }
+              {
+                "pax": 100,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 150,
+                "price": "Hubungi Kami"
+              },
+              {
+                "pax": 200,
+                "price": "Hubungi Kami"
+              }
             ]
           }
         ]
@@ -142,7 +193,8 @@
   },
   "contact": {
     "headline": "Hubungi Kami",
-    "description": "Kami siap melayani Anda. Hubungi kami melalui WhatsApp untuk informasi lebih lanjut dan pemesanan.",
+    "description": "Kami siap melayani pemesanan katering di Pekalongan. Hubungi kami melalui WhatsApp untuk informasi lebih lanjut.",
+    "location": "Pekalongan, Jawa Tengah",
     "whatsapp": "085727153121",
     "whatsappDisplay": "0857-2715-3121",
     "ctaText": "Hubungi Sekarang (WhatsApp)"
