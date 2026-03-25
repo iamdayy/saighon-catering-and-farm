@@ -10,12 +10,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-green-700 rounded-full flex items-center justify-center">
-              <svg viewBox="0 0 40 40" className="w-6 h-6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="20" cy="23" rx="9" ry="6" fill="white" />
-                <ellipse cx="27" cy="17" rx="5" ry="4" fill="white" />
-                <ellipse cx="30" cy="14" rx="2" ry="3" fill="white" transform="rotate(20 30 14)" />
-                <circle cx="29" cy="16" r="1" fill="#166534" />
-              </svg>
+              {/* Kambing/Domba Image */}
+              <img
+                src="/images/logo.png"
+                alt="Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <p className="text-white font-bold text-sm">{catalog.brand.name}</p>

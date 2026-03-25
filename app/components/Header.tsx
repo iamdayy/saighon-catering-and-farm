@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
+import { useEffect, useState } from "react";
 import catalog from "../data/catalog.json";
 
 export default function Header() {
@@ -35,27 +35,12 @@ export default function Header() {
           {/* Logo & Brand */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shrink-0">
-              {/* Kambing/Domba placeholder SVG */}
-              <svg viewBox="0 0 40 40" className="w-8 h-8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="19" fill="#166534" />
-                {/* Body */}
-                <ellipse cx="20" cy="23" rx="9" ry="6" fill="white" />
-                {/* Head */}
-                <ellipse cx="27" cy="17" rx="5" ry="4" fill="white" />
-                {/* Ear */}
-                <ellipse cx="30" cy="14" rx="2" ry="3" fill="white" transform="rotate(20 30 14)" />
-                {/* Eye */}
-                <circle cx="29" cy="16" r="1" fill="#166534" />
-                {/* Legs */}
-                <rect x="13" y="28" width="2.5" height="5" rx="1" fill="white" />
-                <rect x="17" y="29" width="2.5" height="4" rx="1" fill="white" />
-                <rect x="22" y="29" width="2.5" height="4" rx="1" fill="white" />
-                <rect x="26" y="28" width="2.5" height="5" rx="1" fill="white" />
-                {/* Wool texture dots */}
-                <circle cx="18" cy="22" r="1" fill="#d1fae5" />
-                <circle cx="21" cy="20" r="1" fill="#d1fae5" />
-                <circle cx="15" cy="21" r="1" fill="#d1fae5" />
-              </svg>
+              {/* Kambing/Domba Image */}
+              <img
+                src="/images/logo.png"
+                alt="Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="hidden sm:block">
               <p className="text-white font-bold text-sm leading-tight">{catalog.brand.name}</p>

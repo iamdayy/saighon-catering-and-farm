@@ -75,38 +75,12 @@ export default function Hero() {
               {/* Main circle */}
               <div className="w-64 h-64 sm:w-80 sm:h-80 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 flex items-center justify-center">
                 <div className="w-48 h-48 sm:w-64 sm:h-64 bg-white/15 rounded-full flex items-center justify-center">
-                  {/* Large Kambing SVG */}
-                  <svg viewBox="0 0 200 200" className="w-40 h-40 sm:w-52 sm:h-52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    {/* Body */}
-                    <ellipse cx="100" cy="120" rx="55" ry="40" fill="white" opacity="0.95" />
-                    {/* Head */}
-                    <ellipse cx="145" cy="85" rx="30" ry="25" fill="white" opacity="0.95" />
-                    {/* Snout */}
-                    <ellipse cx="168" cy="90" rx="12" ry="9" fill="#f0fdf4" opacity="0.9" />
-                    {/* Ear */}
-                    <ellipse cx="155" cy="63" rx="10" ry="17" fill="white" opacity="0.9" transform="rotate(25 155 63)" />
-                    {/* Horn */}
-                    <path d="M135 65 Q125 45 130 35 Q140 55 138 65Z" fill="#bbf7d0" />
-                    {/* Eye */}
-                    <circle cx="150" cy="80" r="4" fill="#166534" />
-                    <circle cx="151" cy="79" r="1.5" fill="white" />
-                    {/* Nostril */}
-                    <circle cx="166" cy="93" r="2" fill="#bbf7d0" />
-                    <circle cx="172" cy="93" r="2" fill="#bbf7d0" />
-                    {/* Legs */}
-                    <rect x="62" y="153" width="14" height="32" rx="6" fill="white" opacity="0.9" />
-                    <rect x="84" y="157" width="14" height="28" rx="6" fill="white" opacity="0.9" />
-                    <rect x="108" y="157" width="14" height="28" rx="6" fill="white" opacity="0.9" />
-                    <rect x="130" y="153" width="14" height="32" rx="6" fill="white" opacity="0.9" />
-                    {/* Wool texture */}
-                    <circle cx="85" cy="115" r="7" fill="#f0fdf4" opacity="0.6" />
-                    <circle cx="100" cy="108" r="8" fill="#f0fdf4" opacity="0.6" />
-                    <circle cx="115" cy="113" r="7" fill="#f0fdf4" opacity="0.6" />
-                    <circle cx="75" cy="120" r="6" fill="#f0fdf4" opacity="0.6" />
-                    <circle cx="128" cy="118" r="6" fill="#f0fdf4" opacity="0.6" />
-                    {/* Tail */}
-                    <ellipse cx="50" cy="115" rx="8" ry="10" fill="white" opacity="0.7" />
-                  </svg>
+                  {/* Large Kambing Image */}
+                  <img
+                    src="/images/kambing.png"
+                    alt="Large Kambing"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
 
