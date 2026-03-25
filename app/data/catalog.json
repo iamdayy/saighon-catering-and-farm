@@ -1,0 +1,150 @@
+{
+  "brand": {
+    "name": "Saighon Catering & Farm",
+    "tagline": "Aqiqah Murah Kualitas Wahh",
+    "subHeadline": "Layanan Aqiqah Amanah Sesuai Syariah",
+    "whatsapp": "085727153121",
+    "colors": {
+      "primary": "#166534",
+      "accent": "#ffffff",
+      "muted": "#f3f4f6"
+    }
+  },
+  "navigation": [
+    { "label": "Beranda", "href": "#hero" },
+    { "label": "Farm", "href": "#farm" },
+    { "label": "Paket Aqiqah", "href": "#pricing" },
+    { "label": "Paket Talam", "href": "#talam" },
+    { "label": "Kontak", "href": "#contact" }
+  ],
+  "farm": {
+    "headline": "Pilih Kambing Langsung dari Kandang",
+    "description": "Kami menyediakan layanan farm terpadu untuk memastikan kualitas hewan aqiqah terbaik sesuai syariah.",
+    "features": [
+      {
+        "id": 1,
+        "title": "Pilih Sendiri",
+        "description": "Bisa pilih kambing sendiri langsung di farm sesuai selera dan kebutuhan Anda."
+      },
+      {
+        "id": 2,
+        "title": "Sehat & Amanah",
+        "description": "Hewan sehat dan terawat, dijamin Amanah sesuai syariah Islam."
+      },
+      {
+        "id": 3,
+        "title": "Saksikan Langsung",
+        "description": "Pelanggan bisa menyaksikan proses penyembelihan secara langsung."
+      },
+      {
+        "id": 4,
+        "title": "Kepala & Kaki Dimasak",
+        "description": "Bagian Kepala & Kaki tetap dimasak khusus untuk shohibul Aqiqah."
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Paket Aqiqah",
+    "description": "Pilih paket yang sesuai kebutuhan Anda. Tersedia dalam dua kategori nasi.",
+    "standardMenu": [
+      "Rendang",
+      "Telur Semur",
+      "Acar",
+      "Sambal Goreng Kentang",
+      "Kerupuk Udang",
+      "Box Tebal",
+      "Kartu Ucapan"
+    ],
+    "categories": [
+      {
+        "id": "kebuli",
+        "label": "Paket Nasi Kebuli",
+        "packages": [
+          {
+            "type": "putri",
+            "label": "Aqiqah Putri",
+            "subtitle": "1 Kambing",
+            "options": [
+              { "pax": 60, "price": "Hubungi Kami" },
+              { "pax": 80, "price": "Hubungi Kami" },
+              { "pax": 100, "price": "Hubungi Kami" }
+            ]
+          },
+          {
+            "type": "putra",
+            "label": "Aqiqah Putra",
+            "subtitle": "2 Kambing",
+            "options": [
+              { "pax": 100, "price": "Hubungi Kami" },
+              { "pax": 150, "price": "Hubungi Kami" },
+              { "pax": 200, "price": "Hubungi Kami" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "putih",
+        "label": "Paket Nasi Putih",
+        "packages": [
+          {
+            "type": "putri",
+            "label": "Aqiqah Putri",
+            "subtitle": "1 Kambing",
+            "options": [
+              { "pax": 60, "price": "Hubungi Kami" },
+              { "pax": 80, "price": "Hubungi Kami" },
+              { "pax": 100, "price": "Hubungi Kami" }
+            ]
+          },
+          {
+            "type": "putra",
+            "label": "Aqiqah Putra",
+            "subtitle": "2 Kambing",
+            "options": [
+              { "pax": 100, "price": "Hubungi Kami" },
+              { "pax": 150, "price": "Hubungi Kami" },
+              { "pax": 200, "price": "Hubungi Kami" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "talam": {
+    "headline": "Paket Talam",
+    "description": "Pesan cepat per talam, cocok untuk acara keluarga.",
+    "packages": [
+      {
+        "id": 1,
+        "label": "Paket Nasi Kebuli",
+        "price": 90000,
+        "priceFormatted": "Rp 90.000"
+      },
+      {
+        "id": 2,
+        "label": "Paket Ayam Pejantan",
+        "price": 85000,
+        "priceFormatted": "Rp 85.000"
+      },
+      {
+        "id": 3,
+        "label": "Paket Ayam Negeri",
+        "price": 80000,
+        "priceFormatted": "Rp 80.000"
+      },
+      {
+        "id": 4,
+        "label": "Paket Rendang",
+        "price": 80000,
+        "priceFormatted": "Rp 80.000"
+      }
+    ]
+  },
+  "contact": {
+    "headline": "Hubungi Kami",
+    "description": "Kami siap melayani Anda. Hubungi kami melalui WhatsApp untuk informasi lebih lanjut dan pemesanan.",
+    "whatsapp": "085727153121",
+    "whatsappDisplay": "0857-2715-3121",
+    "ctaText": "Hubungi Sekarang (WhatsApp)"
+  }
+}
